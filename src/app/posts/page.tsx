@@ -2,12 +2,11 @@ import { ListOfPost } from "./LisOfPost";
 
 
 
-export default function PostsPage({params}: any){
-    const {id} = params;
+export default function PostsPage(){
     
     return(
         <section>
-        <h1>Welcome to Posts {id}</h1>
+        <h1>Welcome to Posts {}</h1>
         <ListOfPost />
         </section>
     )

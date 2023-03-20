@@ -1,7 +1,7 @@
 'use client'
 import { useState } from "react";
 
-export function LikeButton({id}:any ){
+export function LikeButton({id}:any ){ 
     const [like, setLike] = useState(false);
 
     return(
